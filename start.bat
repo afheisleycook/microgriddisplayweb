@@ -1,1 +1,1 @@
-pythonw app.py
+python app.py

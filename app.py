@@ -3,6 +3,8 @@ from sqlite3 import Connection
 from flask import(Flask, redirect, render_template, request, request_finished, flash,copy_current_request_context)
 import sqlite3
 import  datetime
+import  logging
+app = logging.LogRecord(name="microgit")
 data = {
     "home" : {
         "title":"home are",
@@ -30,3 +32,6 @@ def Home():
 @app.route("/blog")
 def main():
     return render_template("index.html",data=data)
+def
+
+app.run(port=8080,debug=True)
